@@ -1,10 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+  <meta charset="UTF-8">
   <title>Mi Inmobiliaria</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; }
+    header { background: #1f2937; color: white; padding: 20px; text-align: center; }
+    .container { padding: 20px; max-width: 1000px; margin: auto; }
+    .propiedad {
+      background: white;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    }
+    .propiedad img { width: 100%; }
+    .info { padding: 15px; }
+    .precio { color: #16a34a; font-size: 20px; font-weight: bold; }
+  </style>
 </head>
 <body>
-  <h1>Hola, mi web funciona 🎉</h1>
-  <p>Inmobiliaria Agüeda</p>
+
+<header>
+  <h1>🏠 Inmobiliaria Agüeda</h1>
+  <p>Casas y pisos en venta y alquiler</p>
+</header>
+
+<div class="container">
+  <div class="propiedad">
+    <div class="info">
+      <h2>Piso en venta</h2>
+      <p class="precio">120.000 €</p>
+      <p>3 habitaciones · 90 m²</p>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
