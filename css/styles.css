@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f6f7f5;
+    color: #2f3e34;
+}
+
+/* HEADER */
+.header {
+    background-color: #e3e7e1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #2f3e34;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #cfd8cf;
+}
+
+.hero h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* PISOS */
+.pisos {
+    padding: 40px 20px;
+}
+
+.pisos h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.piso {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.piso img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    background-color: #f6f7f5;
+}
+
+.piso-info {
+    padding: 15px;
+}
+
+.precio {
+    font-weight: bold;
+    color: #4a6b57;
+    margin: 5px 0;
+}
+
+/* CONTACTO */
+.contacto {
+    background-color: #e3e7e1;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2f3e34;
+    color: white;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    .nav {
+        display: none;
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+}
+.ver-mas {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #4a6b57;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.galeria img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    background-color: #f6f7f5;
+    border-radius: 10px;
+}
