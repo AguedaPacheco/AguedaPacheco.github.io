@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Contacto | Águeda Pacheco</title>
+    <title>Contacto | Águeda Pacheco Inmobiliaria</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -18,16 +18,53 @@
     </nav>
 </header>
 
-<section class="contacto">
-    <h2>Contacto</h2>
+<section class="contacto-pro">
+    <h1>Hablemos</h1>
+    <p class="contacto-sub">
+        ¿Buscas comprar, vender o invertir en un inmueble?  
+        Escríbeme y te ayudaré encantada.
+    </p>
 
-    <p>📧 <strong>Email:</strong> aguedapginmobiliaria@gmail.com</p>
-    <p>📞 <strong>Teléfono:</strong> 611 039 496</p>
-    <p>📍 <strong>Zona:</strong> Sanlúcar de Barrameda</p>
+    <div class="contacto-grid">
 
-    <a href="https://wa.me/34611039496" class="ver-mas" target="_blank">
-        Contactar por WhatsApp
-    </a>
+        <!-- FORMULARIO -->
+        <form class="formulario"
+              action="mailto:aguedapginmobiliaria@gmail.com"
+              method="POST"
+              enctype="text/plain">
+
+            <label>
+                Nombre
+                <input type="text" name="Nombre" required>
+            </label>
+
+            <label>
+                Email
+                <input type="email" name="Email" required>
+            </label>
+
+            <label>
+                Mensaje
+                <textarea name="Mensaje" rows="5" required></textarea>
+            </label>
+
+            <button type="submit">Enviar mensaje</button>
+        </form>
+
+        <!-- INFO -->
+        <div class="contacto-info">
+            <h3>Datos de contacto</h3>
+
+            <p>📧 aguedapginmobiliaria@gmail.com</p>
+            <p>📞 611 039 496</p>
+            <p>📍 Sanlúcar de Barrameda</p>
+
+            <a href="https://wa.me/34611039496" target="_blank" class="btn-whatsapp">
+                💬 Escríbeme por WhatsApp
+            </a>
+        </div>
+
+    </div>
 </section>
 
 <footer class="footer">
