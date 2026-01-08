@@ -100,13 +100,19 @@ body {
 /* RESPONSIVE */
 @media (max-width: 600px) {
     .nav {
-        display: none;
+        display: flex;
+        gap: 15px;
+    }
+
+    .nav a {
+        font-size: 0.9rem;
     }
 
     .hero h1 {
         font-size: 1.5rem;
     }
 }
+
 .ver-mas {
     display: inline-block;
     margin-top: 10px;
